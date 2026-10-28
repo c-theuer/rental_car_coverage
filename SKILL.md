@@ -74,7 +74,11 @@ If the car will be rented **or driven** in Mexico, Canada, a US territory, or an
 - whether the card covers that country (check the excluded-country table)
 - whether liability applies there
 
-Flag any leg that fails or can't be confirmed. Example: rented in France and driven into Italy, with a card that excludes Italy.
+Flag any leg that fails or can't be confirmed.
+
+Two rules apply here:
+- **Never assume the personal policy covers anywhere outside the 50 states**, including Canada, Mexico, and US territories. Confirm it from the policy's territory wording, or have the user call the insurer and get written confirmation. Until then, mark it ⚠️ unverified and don't count it toward the tests.
+- **Outside the US, most countries legally require the rental company to provide third-party liability**, included in the price. Read the included limit from the rental terms and use it in the $300k test. In the EU the legal minimums are far above $300k; in Mexico and many other countries they can be much lower. In Australia and New Zealand, injury cover comes from government schemes, so check property damage separately. Example: rented in France and driven into Italy, with a card that excludes Italy.
 
 ### 7. Umbrella check
 Use [references/umbrella.md](references/umbrella.md). If assets exceed $300k and the user has no **true** umbrella, recommend buying one. Explain the difference from a follow-form excess policy if they have one of those.

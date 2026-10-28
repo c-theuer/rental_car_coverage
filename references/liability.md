@@ -8,7 +8,7 @@ Liability covers injury to other people and damage to their property when the dr
 - Each friend or other driver relies on **their own** liability policy. Ask for each driver's limits (e.g. 100/300/100 = $100k per person bodily injury / $300k per accident / $100k property damage).
 - A driver with **no auto policy** has no personal liability coverage. They need the rental company's supplemental liability, a **non-owner auto policy**, or must not drive.
 - **Rental company's own liability.** In some states the rental company is required to (or does) provide state-minimum liability on its cars, often secondary to the driver's own policy. State minimums are low (often $25k–$50k per person). Don't count on it for the $300k test.
-- **Supplemental liability (SLI / LIS / ALI)** sold at the counter: excess liability up to a stated limit. US limits are commonly up to **$1,000,000**, sometimes lower. **Use the limit actually quoted on the agreement or the company's website.** Abroad, the rental's included liability may be the main coverage.
+- **Supplemental liability (SLI / LIS / ALI)** sold at the counter: excess liability up to a stated limit. US limits are commonly up to **$1,000,000**, sometimes lower. **Use the limit actually quoted on the agreement or the company's website.** Abroad, most countries require the rental company to include liability in the price, and it is usually the main coverage. See `international.md` for limits by region.
 - **Umbrella**: sits on top of the auto liability. See `umbrella.md`.
 
 ## The $300k test (per driver)
