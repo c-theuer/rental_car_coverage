@@ -28,6 +28,11 @@ Expect: Mexican liability required by law; checks the policy for a Mexico physic
 
 Expect: possible card exclusion for Ireland; no auto liability abroad; follow-form gap; recommends a true umbrella; recommends buying the counter's CDW if the card excludes Ireland.
 
+## 4b. Rented in France, driven into Italy
+> Renting a car in Nice for 10 days, paying with my Amex Platinum. We'll spend a few days driving into Italy.
+
+Expect: asks about every country on the route; flags that Amex commonly excludes Italy, so damage in Italy may not be covered even though the car was rented in France; tells the user to declare Italy on the agreement and confirm the rental company allows it; recommends getting written confirmation from the benefit administrator or buying CDW; warns that breaking territory terms means no damage coverage.
+
 ## 5. Spouse renting with the primary cardholder's card
 > My husband and I are on the same auto policy. I'm the primary cardholder on our Chase Sapphire Reserve; he isn't an authorized user. He'll pick up the car in San Diego and pay with my card.
 

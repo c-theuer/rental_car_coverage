@@ -22,10 +22,39 @@ First, find the **policy territory** in the personal auto policy form. Standard 
 - Many card guides cover Mexico for damage; some exclude it or require declining specific products. Verify. Cards don't cover the Mexican liability requirement.
 - For the $300k test: Mexican rental liability limits are often well under US levels. A **true umbrella** with worldwide coverage may sit on top (see `umbrella.md`).
 
+## Countries where credit cards commonly can't insure (last checked 2026-10)
+
+Exclusions depend on the **card network and the specific card**. Always check the guide for the user's card, and when the country is on any list below, tell the user to get a **letter of coverage** from the benefit administrator naming the country. Rental desks in these countries often refuse to let a renter decline their CDW without one, or at all.
+
+| Network / issuer | Commonly excluded (verify) |
+|---|---|
+| Visa (standard Auto Rental CDW) | Israel, Jamaica, Republic of Ireland, Northern Ireland |
+| Mastercard | Israel, Jamaica, Republic of Ireland, Northern Ireland; plus anywhere coverage is prohibited by local law |
+| American Express (Car Rental Loss & Damage) | Australia, Italy, New Zealand, and OFAC-sanctioned countries. Older Amex guides also excluded Ireland, Israel, and Jamaica. |
+| Some issuers (e.g. Chase Sapphire Preferred/Reserve, many Citi cards) | Have reportedly dropped country exclusions. Confirm in the current guide. |
+| All cards | OFAC-sanctioned countries; countries where local law prohibits the coverage or requires buying local CDW |
+
+Related issues:
+- **Italy**: local law requires the rental price to include CDW and theft protection, usually with a high deductible. Check whether the card covers that deductible.
+- **Ireland / Northern Ireland**: many rental companies accept only certain cards for declining CDW and may require the letter of coverage.
+- Many guides word the exclusion as rentals **rented in** or **originating in** a country. A car rented in an allowed country and driven into an excluded country is a gray area. Treat it as **unverified** and tell the user to get written confirmation from the benefit administrator.
+
+## Cross-border driving: where it's rented vs where it's driven
+
+Always ask both **where the car will be rented** and **every country (or US state/Mexico/Canada) it will be driven in**, including ferries. Then check all three layers:
+
+1. **Rental agreement territory.** Rental companies restrict where their cars can go. Typical rules: a cross-border fee and advance notice are required; some countries are banned entirely (commonly parts of Eastern Europe and the Balkans, or luxury brands restricted to a few countries); ferries to islands or other countries (e.g. Great Britain to Ireland, mainland to Corsica/Sardinia/Sicily) may need permission; most US rentals forbid driving into Mexico except special arrangements, and Canada usually requires notice. **Violating the rental agreement's territory terms voids the agreement's protections and almost always leaves the renter with no damage coverage** from the card, the personal policy, or the rental company's own CDW. Theft or damage in a forbidden country becomes the renter's full responsibility.
+2. **Card territory.** Each country on the route must be covered by the card (see table above), and the rental length limit must hold.
+3. **Liability.** The included and supplemental liability bought from the rental company must apply in every country on the route (in Europe, check the Green Card / cross-border insurance). For US policies, every place on the route must be inside the policy territory.
+
+**Example: rented in France, driven into Italy.** Usually allowed by major French rental companies with notice and possibly a fee, but it must be declared and written on the agreement. If the card excludes Italy (e.g. Amex), damage in Italy may not be covered even though the car was rented in France. Get written confirmation from the benefit administrator, or buy the rental company's CDW. Also confirm the rental's liability coverage extends to Italy.
+
+Flag every leg of the route that fails or is unverified on any layer.
+
 ## Everywhere else (outside North America)
 
 - The personal auto policy **does not follow** the user. No damage or liability coverage from it.
-- **Damage**: the card benefit may be **primary** abroad. Check the guide for excluded countries (commonly Israel, Jamaica, Republic of Ireland, Northern Ireland, and sometimes others), rental length (often 31 days), and vehicle types. In some countries the rental rate includes mandatory CDW with a high deductible; check whether the card covers that deductible.
+- **Damage**: the card benefit may be **primary** abroad. Check the guide for excluded countries (see the table above), rental length (often 31 days), and vehicle types. In some countries the rental rate includes mandatory CDW with a high deductible; check whether the card covers that deductible.
 - **Liability**: basic liability is usually included in the rental price by law, at local minimum levels. Supplemental liability sold abroad often caps around €/$300k or less. Compare to the $300k test and the $1M recommendation.
 - **Umbrella**: a **true umbrella** with worldwide territory can cover liability above what's included; a follow-form excess policy generally can't (no underlying auto policy applies abroad). Check the umbrella's "retained limit" / drop-down wording: if the policy requires underlying auto limits that don't exist abroad, the user may be responsible for that layer.
 - An International Driving Permit may be required (e.g. Japan, Italy, and others). Mention it.

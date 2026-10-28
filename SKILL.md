@@ -30,7 +30,8 @@ If any driver fails any item, the answer is **not fully covered**. Name the driv
 
 ### 1. Intake the rental situation
 Extract what the user already gave you (e.g. "Fort Lauderdale, FL, renting with several friends, paying with Chase Sapphire Reserve"). Ask only for what's missing, in one compact message:
-- Where (city/state or country) and dates / rental length
+- **Where the car will be rented** (city/state or country) and dates / rental length
+- **Everywhere the car will be driven**: every state, country, and ferry crossing on the route, including day trips across a border (e.g. rented in France, driving into Italy)
 - Who will drive: name or role, and relationship to the user (spouse, relative living in the household, friend, coworker)
 - Who will be the **renter named on the agreement**, and **which card** (whose card: primary cardholder or authorized user) will pay
 - Vehicle type (standard car, SUV, minivan, pickup, luxury/exotic, 9+ passenger van, moving truck)
@@ -67,8 +68,13 @@ Use [references/damage.md](references/damage.md). For each driver determine:
 ### 5. Liability analysis (per driver)
 Use [references/liability.md](references/liability.md). For each driver: their own liability limits, the state's at-fault vs no-fault rules and **PIP requirement**, whether their policy's out-of-state clause supplies required PIP, the rental company's liability (state minimum included, if any, and the supplemental limit quoted at the counter), and any umbrella. Compare to the $300k test and the $1M recommendation.
 
-### 6. Outside the 50 states
-If the rental is in Mexico, Canada, a US territory, or anywhere else abroad, use [references/international.md](references/international.md).
+### 6. Outside the 50 states, and cross-border routes
+If the car will be rented **or driven** in Mexico, Canada, a US territory, or anywhere else abroad, use [references/international.md](references/international.md). For every leg of the route, check three things:
+- whether the rental agreement allows the car there
+- whether the card covers that country (check the excluded-country table)
+- whether liability applies there
+
+Flag any leg that fails or can't be confirmed. Example: rented in France and driven into Italy, with a card that excludes Italy.
 
 ### 7. Umbrella check
 Use [references/umbrella.md](references/umbrella.md). If assets exceed $300k and the user has no **true** umbrella, recommend buying one. Explain the difference from a follow-form excess policy if they have one of those.
@@ -78,6 +84,7 @@ Write the result using [references/report-template.md](references/report-templat
 
 ## Always include in the report
 - **Never let anyone who is not on the rental agreement drive the car.** If they do, there is no damage coverage from any source.
+- **Stay within the rental agreement's territory terms.** Driving into a country, or onto a ferry, that the agreement doesn't allow (or that you didn't declare) leaves you with **no damage coverage**.
 - Card coverage requires **declining the rental company's CDW/LDW** and **paying the entire rental with that card**, rented by an eligible cardholder.
 - **Credit cards never cover liability.**
 - The disclaimer: not financial, legal, or insurance advice; the author is not responsible for mistakes; verify everything with your insurer, card issuer, and rental company; report bugs at https://github.com/c-theuer/rental-car-coverage/issues.

@@ -9,7 +9,8 @@ Use this structure. Keep it scannable. Every conclusion names its source (e.g. "
 One or two sentences: the bottom line and the biggest gap (if any).
 
 ### Rental
-- Location, dates/length, vehicle type
+- Rented in: [location]; dates/length; vehicle type
+- Driven in: [every state/country/ferry on the route], each marked ✅ / ❌ / ⚠️ for rental agreement territory, card territory, and liability
 - Renter on the agreement: [name], paying with [card] ([primary cardholder / AU])
 - Additional drivers on the agreement: [names]
 
@@ -43,6 +44,7 @@ Specific to each gap, e.g.:
 
 ### Before you drive
 - **Never let anyone not on the rental agreement drive.** If they do, there is no damage coverage.
+- **Stay within the rental agreement's territory.** Declare every country and ferry crossing at the counter and make sure it's written on the agreement. Driving somewhere not allowed leaves you with **no damage coverage**.
 - Decline the CDW/LDW **only** if relying on card coverage, and pay the **entire** rental with that card.
 - **Credit cards never cover liability.**
 - Take photos/video of the car at pickup and return.
