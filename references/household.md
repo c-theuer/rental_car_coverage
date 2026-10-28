@@ -47,7 +47,7 @@ Assume Spouse A is the primary cardholder and named insured, and Spouse B is the
 
 ## Adding a spouse as an additional driver
 
-Many rental companies don't charge to add a spouse or domestic partner (some company policies and some state laws require this, e.g. California). Always list the spouse on the agreement at the counter. Fees for other additional drivers vary.
+Many rental companies don't charge to add a spouse or domestic partner. Some state laws limit or ban additional-driver fees for a spouse (California does, for example, and New York and Nevada cap these fees). In some states (reportedly California, Illinois, Missouri, Nevada, Oregon, Wisconsin), some companies automatically treat a spouse as an authorized driver. **Don't rely on automatic authorization.** Card guides cover drivers authorized by the rental agreement, and the claim will be easier if the spouse's name is on it. Always list the spouse at the counter. Fees for other additional drivers vary.
 
 ## Two separate households (e.g. friends renting together)
 

@@ -18,7 +18,7 @@ First, find the **policy territory** in the personal auto policy form. Standard 
 ## Mexico
 
 - **US auto liability is not recognized by Mexican law.** Mexican-issued third-party liability insurance is **legally required**. Rental companies in Mexico include or require it. Without it, a driver in an accident can be detained.
-- Some US policies extend **physical damage** (not liability) to Mexico within a set distance of the border (e.g. 25 or 75 miles) by endorsement. Check the policy. Otherwise assume no personal-policy coverage.
+- Some US insurers offer a limited Mexico endorsement for **physical damage only** (never liability). Typical terms: accidents within 25–75 miles of the border, trips of 10 days or less, often excess over other insurance. Many insurers don't offer it at all, and it usually applies to the insured's own car, not a car rented in Mexico. Check the policy. Otherwise assume no personal-policy coverage in Mexico.
 - Many card guides cover Mexico for damage; some exclude it or require declining specific products. Verify. Cards don't cover the Mexican liability requirement.
 - For the $300k test: Mexican rental liability limits are often well under US levels. A **true umbrella** with worldwide coverage may sit on top (see `umbrella.md`).
 
@@ -35,7 +35,7 @@ Exclusions depend on the **card network and the specific card**. Always check th
 | All cards | OFAC-sanctioned countries; countries where local law prohibits the coverage or requires buying local CDW |
 
 Related issues:
-- **Italy**: local law requires the rental price to include CDW and theft protection, usually with a high deductible. Check whether the card covers that deductible.
+- **Italy**: theft protection is required by law, and rental companies in practice include CDW in the price too (sources disagree on whether CDW itself is legally mandatory). Either way, the renter **can't decline** them, which can block the card's "decline the CDW" condition even on cards that don't exclude Italy. The included protections usually carry a high deductible. Check whether the card will cover that deductible when the waiver couldn't be declined, and get it in writing.
 - **Ireland / Northern Ireland**: many rental companies accept only certain cards for declining CDW and may require the letter of coverage.
 - Many guides word the exclusion as rentals **rented in** or **originating in** a country. A car rented in an allowed country and driven into an excluded country is a gray area. Treat it as **unverified** and tell the user to get written confirmation from the benefit administrator.
 

@@ -36,19 +36,21 @@ These figures change. When the rental state is on this list, confirm the current
 
 | State | Type | Required PIP minimum (approx.) |
 |---|---|---|
-| Florida | No-fault | $10,000 |
+| Florida | No-fault | $10,000. Repeal bills (SB 522 / HB 769) died in the 2026 session, so PIP is still required. Some websites wrongly say PIP ended July 1, 2026. Recheck if the rental is after a later session. |
 | Hawaii | No-fault | $10,000 |
 | Kansas | No-fault | $4,500 medical, plus other benefits |
-| Kentucky | Choice no-fault | $10,000 |
+| Kentucky | Choice no-fault | $10,000. Drivers can reject parts of the no-fault system, and sources disagree on whether PIP itself can be rejected; verify. |
 | Massachusetts | No-fault | $8,000 |
 | Michigan | No-fault | Tiered choices (up to unlimited) |
 | Minnesota | No-fault | $40,000 ($20k medical + $20k non-medical) |
-| New Jersey | Choice no-fault | $15,000 (higher options) |
+| New Jersey | Choice no-fault | $15,000 basic (standard policies offer much more). NJ minimums were scheduled to rise on 2026-01-01; verify. |
 | New York | No-fault | $50,000 |
 | North Dakota | No-fault | $30,000 |
-| Pennsylvania | Choice no-fault | $5,000 medical |
+| Pennsylvania | Choice no-fault | $5,000 first-party medical benefits |
 | Utah | No-fault | $3,000 |
-| Delaware, Maryland, Oregon | At-fault with required PIP | Varies; verify |
+| Delaware | At-fault with required PIP | $15,000 per person / $30,000 per accident |
+| Oregon | At-fault with required PIP | $15,000 per person |
+| Maryland | At-fault, PIP must be offered | $2,500, can be waived. A Maryland waiver may not hold in Delaware, where courts have applied Delaware's minimum through the policy's out-of-state clause. |
 
 All other states are at-fault (tort) states. Some require PIP or medical payments to be offered but allow rejecting them.
 
