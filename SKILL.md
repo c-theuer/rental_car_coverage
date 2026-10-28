@@ -28,7 +28,7 @@ If any driver fails any item, the answer is **not fully covered**. Name the driv
 - **Damage** covers the rental car itself. **Liability** covers everyone and everything else.
 - On a standard US personal auto policy, damage coverage generally follows the car and liability follows the driver. For rentals, the personal policy's collision/comprehensive usually extends to the rental as **primary** damage coverage, and a credit card's rental benefit is usually **secondary**. Always report what the card's guide actually says. Some cards state primary coverage.
 - **A secondary card becomes primary when the driver has no personal auto insurance** (standard Visa, Mastercard, and most issuer guides say so; confirm in the user's guide). So for someone with no auto policy, a secondary card already pays first: **never** tell them they need a card with primary coverage. A primary card only matters for someone who *has* a personal policy and wants to keep claims off it.
-- Credit cards **never** cover liability.
+- **What credit cards call "insurance" is misleading. It is NEVER full coverage.** It only covers damage to the rental car itself, never liability (injuries to other people and damage to their property), which is the bigger risk. Never let the user treat card coverage as full coverage.
 - Card damage coverage applies only when the **primary driver** (the renter named on the rental agreement) is the **primary cardholder or an authorized user** on the paying card and pays with their own card. Other drivers listed on the agreement can then be covered as additional drivers.
 - Rental company supplemental liability (SLI/LIS/ALI) at major US companies tops out around **USD 300k–500k**. It doesn't reach USD 1M on its own. Never describe it as "usually USD 1M"; use the quoted limit.
 - **Letting someone else drive can make the renter liable.** In some states (e.g. Florida's "dangerous instrumentality" doctrine) the person who controls the car can be held liable for a permitted driver's crash. When friends drive, check the renter's own exposure too.
@@ -131,7 +131,7 @@ Write the result using [references/report-template.md](references/report-templat
 - **Never let anyone who is not on the rental agreement drive the car.** If they do, there is no damage coverage from any source.
 - **Stay within the rental agreement's territory terms.** Driving into a country, or onto a ferry, that the agreement doesn't allow (or that you didn't declare) leaves you with **no damage coverage**.
 - Card coverage requires **declining the rental company's CDW/LDW** and **paying the entire rental with that card**, rented by an eligible cardholder.
-- **Credit cards never cover liability.**
+- **What credit cards call "insurance" is misleading. It is NEVER full coverage.** It only covers damage to the rental car itself, never liability (injuries to other people and damage to their property), which is the bigger risk.
 - The disclaimer: not financial, legal, or insurance advice; the author is not responsible for mistakes; verify everything with your insurer, card issuer, and rental company; report bugs at https://github.com/c-theuer/rental_car_coverage/issues.
 
 ## Rules for you

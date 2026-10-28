@@ -1,6 +1,6 @@
 # Liability (everything other than the rental car)
 
-Liability covers injury to other people and damage to their property when the driver is at fault. **Credit cards never cover liability.**
+Liability covers injury to other people and damage to their property when the driver is at fault. **What credit cards call "insurance" is misleading. It is NEVER full coverage.** It only covers damage to the rental car itself, never liability (injuries to other people and damage to their property), which is the bigger risk.
 
 ## Who covers whom
 

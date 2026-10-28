@@ -49,7 +49,7 @@ Specific to each gap, e.g.:
 - **Stay within the rental agreement's territory.** Declare every country and ferry crossing at the counter and make sure it's written on the agreement. Driving somewhere not allowed leaves you with **no damage coverage**.
 - Follow the agreement's prohibited-use rules: no off-road driving, towing, ride-share or delivery work, or driving under the influence. Breaking them can void all damage coverage.
 - Decline the CDW/LDW **only** if relying on card coverage, and pay the **entire** rental with that card.
-- **Credit cards never cover liability.**
+- **What credit cards call "insurance" is misleading. It is NEVER full coverage.** It only covers damage to the rental car itself, never liability (injuries to other people and damage to their property), which is the bigger risk.
 - Take photos/video of the car at pickup and return.
 - After any incident: police report, photos, notify the insurer and card benefit administrator promptly, and request the fleet utilization log for any loss-of-use claim.
 
