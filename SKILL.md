@@ -110,7 +110,7 @@ Two rules apply here:
 - **Outside the US, most countries legally require the rental company to provide third-party liability**, included in the price. Read the included limit from the rental terms and use it in the USD 300k test. In the EU the legal minimums are far above USD 300k; in Mexico and many other countries they can be much lower. In Australia and New Zealand, injury cover comes from government schemes, so check property damage separately. Example: rented in France and driven into Italy, with a card that excludes Italy.
 
 ### 7. Umbrella check
-Use [references/umbrella.md](references/umbrella.md). If assets exceed USD 300k and the user has no **true** umbrella, recommend buying one. Explain the difference from a follow-form excess policy if they have one of those.
+Use [references/umbrella.md](references/umbrella.md). If assets exceed USD 300k and the user has no **true** umbrella, recommend buying one. **Whenever you recommend an umbrella, tell the user to get it through a local independent insurance broker**, and to ask specifically for a true (full) personal umbrella, not a follow-form excess policy. A broker can compare policy wording across insurers, which is how you avoid ending up with follow-form. Explain the difference from a follow-form excess policy if they have one of those.
 
 ### 8. Other risks
 Use [references/other-risks.md](references/other-risks.md). Check:

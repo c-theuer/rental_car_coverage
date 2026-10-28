@@ -23,6 +23,8 @@
 
 ## Recommendation rules
 
+**Where to buy:** every umbrella recommendation tells the user to get it through a **local independent insurance broker** and to ask for a **true (full) personal umbrella, not a follow-form excess policy**. A broker can compare policy wording from several insurers and confirm worldwide territory, personal injury coverage (libel, slander), and drop-down coverage. Buying directly from one insurer, or adding "umbrella" to an auto policy online, makes it easy to end up with follow-form without noticing.
+
 - Assets over **$300k** and no umbrella → recommend a **true** umbrella of at least **$1M** (more if assets are higher). Typical cost is a few hundred dollars a year for $1M, but tell the user to get quotes.
 - Has only a follow-form excess policy and travels abroad → explain the gap and recommend a true umbrella.
 - Assets under $300k → still note the $1M liability recommendation; an umbrella is optional but inexpensive protection for future earnings.
