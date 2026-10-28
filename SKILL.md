@@ -5,7 +5,7 @@ description: Determine whether a US resident is fully covered when renting a car
 
 # Rental Car Coverage
 
-<!-- Maintainers: write amounts in this file as "USD 300k", never a dollar sign followed by a digit. Claude Code replaces $1, $2, ... with skill arguments. The reference files are not affected. -->
+<!-- Maintainers: write amounts in this file as "USD 300k", never a dollar sign followed by a digit. Claude Code replaces a dollar sign followed by a number with skill arguments. The reference files are not affected. -->
 
 > **Disclaimer:** This skill is educational and is **not financial, legal, or insurance advice**. The author is **not responsible for mistakes**, omissions, or coverage decisions made using it. Users must **verify the advice themselves** with their insurer, card issuer, and rental company before relying on it. Report bugs or incorrect advice by opening an issue at https://github.com/c-theuer/rental_car_coverage/issues.
 
@@ -28,6 +28,7 @@ If any driver fails any item, the answer is **not fully covered**. Name the driv
 - **Damage** covers the rental car itself. **Liability** covers everyone and everything else.
 - On a standard US personal auto policy, damage coverage generally follows the car and liability follows the driver. For rentals, the personal policy's collision/comprehensive usually extends to the rental as **primary** damage coverage, and a credit card's rental benefit is usually **secondary**. Always report what the card's guide actually says. Some cards state primary coverage.
 - Credit cards **never** cover liability.
+- Card damage coverage applies only when the **primary driver** (the renter named on the rental agreement) is the **primary cardholder or an authorized user** on the paying card and pays with their own card. Other drivers listed on the agreement can then be covered as additional drivers.
 - Rental company supplemental liability (SLI/LIS/ALI) at major US companies tops out around **USD 300k–500k**. It doesn't reach USD 1M on its own. Never describe it as "usually USD 1M"; use the quoted limit.
 - **Letting someone else drive can make the renter liable.** In some states (e.g. Florida's "dangerous instrumentality" doctrine) the person who controls the car can be held liable for a permitted driver's crash. When friends drive, check the renter's own exposure too.
 - A driver **not on the rental agreement** has **no damage coverage** from any source.
@@ -35,17 +36,35 @@ If any driver fails any item, the answer is **not fully covered**. Name the driv
 ## Workflow
 
 ### 1. Intake the rental situation
-Extract what the user already gave you (e.g. "Fort Lauderdale, FL, renting with several friends, paying with Chase Sapphire Reserve"). Ask only for what's missing, in one compact message:
-- **Where the car will be rented** (city/state or country) and dates / rental length
-- **Everywhere the car will be driven**: every state, country, and ferry crossing on the route, including day trips across a border (e.g. rented in France, driving into Italy)
-- Who will drive: name or role, and relationship to the user (spouse, relative living in the household, friend, coworker)
-- Who will be the **renter named on the agreement**, and **which card** (whose card: primary cardholder or authorized user) will pay
-- **Personal or business trip?** If business, stop and refer them to their employer (see Scope).
-- **Who it's rented from**: a rental company (Hertz, Enterprise, etc.) or a car-sharing app (Turo, Getaround). Car-sharing changes everything; see `other-risks.md`.
-- **How it's booked and paid**: at the counter, prepaid on a booking site, with points, or split across cards
-- Vehicle type **and make/model** (standard car, SUV, minivan, pickup, EV, luxury/exotic, 9+ passenger van, moving truck)
-- Whether anyone driving has **no car / no auto policy**
-- Rough net assets of the user: under or over USD 300k (for the umbrella recommendation)
+Extract what the user already gave you (e.g. "Fort Lauderdale, FL, renting with several friends, paying with Chase Sapphire Reserve"). Ask only for what's missing, in one message, using **exactly this format**:
+- two sections, headed **The trip** and **The people**
+- each question a markdown numbered list item (`1.`, `2.`, ...), starting with a bold label
+- numbering continues across both sections, so each question has a unique number the user can refer to
+- drop any question the user already answered and renumber the rest, keeping them in order
+
+Template (all questions, before dropping answered ones):
+
+```
+**The trip**
+
+1. **Personal or business?** Is this trip personal, or for work (even partly)?
+2. **Rented from:** A rental company (Hertz, Enterprise, etc.) or a car-sharing app (Turo, Getaround)?
+3. **Pickup location and dates:** Where will you pick up the car, and for how many days?
+4. **Route:** Every state or country the car will be driven in, including day trips across a border and ferry crossings.
+5. **Car:** The class and, if you know it, the make and model (e.g. midsize sedan, Tesla Model Y, 12-passenger van).
+6. **Booking and payment:** Will you pay at the counter, prepay on a booking site, use points, or split the cost across cards?
+
+**The people**
+
+7. **Drivers:** Who will drive, and how is each person related to you (spouse, relative living with you, friend)?
+8. **Primary driver and card:** Who will be the primary driver? That's the person who picks up the car, signs the rental agreement as the renter, and pays with their card. Which card will they use, and are they the primary cardholder or an authorized user on it?
+9. **Auto insurance:** Does every driver have their own auto insurance? Who doesn't?
+10. **Assets:** Roughly, is your net worth above or below USD 300k? (This decides whether to recommend umbrella insurance.)
+```
+
+If the answer to question 1 is business, stop and refer the user to their employer (see Scope). If it's a car-sharing app, see `other-risks.md`.
+
+**Primary driver rule:** for card coverage to apply, the **primary driver** (the renter named on the rental agreement) **must be the primary cardholder or an authorized user on the card that pays**, and must pay with **their own** card. If the user's answer to question 8 breaks this rule, say so right away and offer the fixes in step 3.
 
 ### 2. Collect documents
 Ask for originals, and say why each matters. Read any PDFs or images the user provides.
@@ -119,4 +138,4 @@ Write the result using [references/report-template.md](references/report-templat
 - State-specific numbers (PIP minimums, state-required rental liability) change. When they matter, verify the current figure from the state's insurance department or statute with a web search and cite it.
 - Rental counter products have different names at each company (CDW, LDW, SLI, LIS, EP, PAI, PEC). Translate them into damage / liability / medical / belongings.
 - Be direct. If the user is not fully covered, say so plainly in the first line.
-- In your reply to the user, write amounts with a normal dollar sign (e.g. "$300k"), not "USD". The "USD" style in this file exists only to avoid argument substitution.
+- In your reply to the user, write amounts with a normal dollar sign in front of the number, not "USD" (this includes the intake questions). The "USD" style in this file exists only to avoid argument substitution.

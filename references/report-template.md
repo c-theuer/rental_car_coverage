@@ -11,7 +11,7 @@ One or two sentences: the bottom line and the biggest gap (if any).
 ### Rental
 - Rented in: [location]; dates/length; vehicle type
 - Driven in: [every state/country/ferry on the route], each marked ✅ / ❌ / ⚠️ for rental agreement territory, card territory, and liability
-- Renter on the agreement: [name], paying with [card] ([primary cardholder / AU])
+- Primary driver (renter named on the agreement): [name], paying with [card] ([primary cardholder / AU]; ❌ if neither)
 - Additional drivers on the agreement: [names]
 
 ### Coverage by driver

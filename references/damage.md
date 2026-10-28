@@ -32,7 +32,7 @@ Pull these from the Guide to Benefits (auto rental collision damage waiver secti
 | Item | Notes |
 |---|---|
 | Primary or secondary | And in which countries. Some cards are primary abroad and secondary at home. **New York residents:** state law makes many otherwise-primary card benefits (e.g. Chase Sapphire) secondary for NY residents. Ask the user's home state. |
-| Eligible renter | Usually "cardholder" (sometimes including authorized users). **The renter on the agreement must be the eligible cardholder.** |
+| Eligible renter | Usually "cardholder" (sometimes including authorized users). **The primary driver (the renter named on the agreement) must be the primary cardholder or an authorized user on the card, paying with their own card.** |
 | Authorized drivers | Usually anyone listed on the rental agreement. Some guides limit it. |
 | Payment condition | The **entire** rental must be paid with the card (or that card's points). Split payment can void coverage. |
 | Decline CDW/LDW | Required. Accepting the company's waiver usually voids the card benefit. |

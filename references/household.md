@@ -25,7 +25,7 @@ Liability works the same way: the renter's policy liability usually covers "you"
 ## Credit card authorized users (AU)
 
 - An authorized user gets a card on the primary cardholder's account. Whether an AU is an **eligible person** for the rental benefit depends on the Guide to Benefits; most premium cards include AUs, some don't. Check the definition of "cardholder" / "eligible person."
-- The benefit usually applies only when **the renter named on the rental agreement is the eligible cardholder** and **the full rental is paid with that cardholder's card**.
+- The benefit usually applies only when **the primary driver (the renter named on the rental agreement) is the primary cardholder or an authorized user on the card** and **the full rental is paid with that cardholder's card**.
 - Other drivers listed on the agreement are covered as **authorized drivers** (if the guide extends coverage to them, as most do).
 - Adding an AU may cost money (some premium cards charge an annual AU fee). Mention the fee if known; tell the user to check.
 
