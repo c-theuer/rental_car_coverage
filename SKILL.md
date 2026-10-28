@@ -5,6 +5,8 @@ description: Determine whether a US resident is fully covered when renting a car
 
 # Rental Car Coverage
 
+<!-- Maintainers: write amounts in this file as "USD 300k", never a dollar sign followed by a digit. Claude Code replaces $1, $2, ... with skill arguments. The reference files are not affected. -->
+
 > **Disclaimer:** This skill is educational and is **not financial, legal, or insurance advice**. The author is **not responsible for mistakes**, omissions, or coverage decisions made using it. Users must **verify the advice themselves** with their insurer, card issuer, and rental company before relying on it. Report bugs or incorrect advice by opening an issue at https://github.com/c-theuer/rental_car_coverage/issues.
 
 **Scope: personal rentals only.** If the rental is for work or business (even partly), stop the analysis and tell the user to contact their employer about business rental coverage, such as a corporate card, the employer's auto policy, or travel policy. Personal policies and cards may treat business use differently, and this skill doesn't cover it.
@@ -17,7 +19,7 @@ The rental is fully covered only if **every driver listed on the rental agreemen
 
 1. **Damage**: the full value of the rental car is covered for collision, theft, and comprehensive losses (personal policy and/or card, after deductibles are accounted for).
 2. **Fees**: loss of use and related rental company charges (administrative fees, diminished value, towing/storage) are covered.
-3. **Liability**: at least **$300,000** of liability coverage applies to that driver (their own auto policy, the rental company's supplemental liability, or an umbrella). Always encourage **$1,000,000+**. A driver with $300k to $999k passes, with a "recommended: raise to $1M+" note.
+3. **Liability**: at least **USD 300,000** of liability coverage applies to that driver (their own auto policy, the rental company's supplemental liability, or an umbrella). Always encourage **USD 1,000,000+**. A driver with USD 300k to USD 999k passes, with a "recommended: raise to USD 1M+" note.
 
 If any driver fails any item, the answer is **not fully covered**. Name the driver, the gap, and the fix.
 
@@ -26,6 +28,8 @@ If any driver fails any item, the answer is **not fully covered**. Name the driv
 - **Damage** covers the rental car itself. **Liability** covers everyone and everything else.
 - On a standard US personal auto policy, damage coverage generally follows the car and liability follows the driver. For rentals, the personal policy's collision/comprehensive usually extends to the rental as **primary** damage coverage, and a credit card's rental benefit is usually **secondary**. Always report what the card's guide actually says. Some cards state primary coverage.
 - Credit cards **never** cover liability.
+- Rental company supplemental liability (SLI/LIS/ALI) at major US companies tops out around **USD 300k–500k**. It doesn't reach USD 1M on its own. Never describe it as "usually USD 1M"; use the quoted limit.
+- **Letting someone else drive can make the renter liable.** In some states (e.g. Florida's "dangerous instrumentality" doctrine) the person who controls the car can be held liable for a permitted driver's crash. When friends drive, check the renter's own exposure too.
 - A driver **not on the rental agreement** has **no damage coverage** from any source.
 
 ## Workflow
@@ -41,7 +45,7 @@ Extract what the user already gave you (e.g. "Fort Lauderdale, FL, renting with 
 - **How it's booked and paid**: at the counter, prepaid on a booking site, with points, or split across cards
 - Vehicle type **and make/model** (standard car, SUV, minivan, pickup, EV, luxury/exotic, 9+ passenger van, moving truck)
 - Whether anyone driving has **no car / no auto policy**
-- Rough net assets of the user: under or over $300k (for the umbrella recommendation)
+- Rough net assets of the user: under or over USD 300k (for the umbrella recommendation)
 
 ### 2. Collect documents
 Ask for originals, and say why each matters. Read any PDFs or images the user provides.
@@ -71,7 +75,7 @@ Use [references/damage.md](references/damage.md). For each driver determine:
 - Combined: is the full value of the car **and** the fees covered? What deductible or gap remains?
 
 ### 5. Liability analysis (per driver)
-Use [references/liability.md](references/liability.md). For each driver: their own liability limits, the state's at-fault vs no-fault rules and **PIP requirement**, whether their policy's out-of-state clause supplies required PIP, the rental company's liability (state minimum included, if any, and the supplemental limit quoted at the counter), and any umbrella. Compare to the $300k test and the $1M recommendation.
+Use [references/liability.md](references/liability.md). For each driver: their own liability limits, the state's at-fault vs no-fault rules and **PIP requirement**, whether their policy's out-of-state clause supplies required PIP, the rental company's liability (state minimum included, if any, and the supplemental limit quoted at the counter), and any umbrella. Compare to the USD 300k test and the USD 1M recommendation.
 
 ### 6. Outside the 50 states, and cross-border routes
 If the car will be rented **or driven** in Mexico, Canada, a US territory, or anywhere else abroad, use [references/international.md](references/international.md). For every leg of the route, check three things:
@@ -83,10 +87,10 @@ Flag any leg that fails or can't be confirmed.
 
 Two rules apply here:
 - **Never assume the personal policy covers anywhere outside the 50 states**, including Canada, Mexico, and US territories. Confirm it from the policy's territory wording, or have the user call the insurer and get written confirmation. Until then, mark it ⚠️ unverified and don't count it toward the tests.
-- **Outside the US, most countries legally require the rental company to provide third-party liability**, included in the price. Read the included limit from the rental terms and use it in the $300k test. In the EU the legal minimums are far above $300k; in Mexico and many other countries they can be much lower. In Australia and New Zealand, injury cover comes from government schemes, so check property damage separately. Example: rented in France and driven into Italy, with a card that excludes Italy.
+- **Outside the US, most countries legally require the rental company to provide third-party liability**, included in the price. Read the included limit from the rental terms and use it in the USD 300k test. In the EU the legal minimums are far above USD 300k; in Mexico and many other countries they can be much lower. In Australia and New Zealand, injury cover comes from government schemes, so check property damage separately. Example: rented in France and driven into Italy, with a card that excludes Italy.
 
 ### 7. Umbrella check
-Use [references/umbrella.md](references/umbrella.md). If assets exceed $300k and the user has no **true** umbrella, recommend buying one. Explain the difference from a follow-form excess policy if they have one of those.
+Use [references/umbrella.md](references/umbrella.md). If assets exceed USD 300k and the user has no **true** umbrella, recommend buying one. Explain the difference from a follow-form excess policy if they have one of those.
 
 ### 8. Other risks
 Use [references/other-risks.md](references/other-risks.md). Check:
@@ -115,3 +119,4 @@ Write the result using [references/report-template.md](references/report-templat
 - State-specific numbers (PIP minimums, state-required rental liability) change. When they matter, verify the current figure from the state's insurance department or statute with a web search and cite it.
 - Rental counter products have different names at each company (CDW, LDW, SLI, LIS, EP, PAI, PEC). Translate them into damage / liability / medical / belongings.
 - Be direct. If the user is not fully covered, say so plainly in the first line.
+- In your reply to the user, write amounts with a normal dollar sign (e.g. "$300k"), not "USD". The "USD" style in this file exists only to avoid argument substitution.

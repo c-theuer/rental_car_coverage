@@ -11,6 +11,10 @@ Liability covers injury to other people and damage to their property when the dr
 - **Supplemental liability (SLI / LIS / ALI)** sold at the counter: excess liability up to a stated limit. Major US companies' published limits (last checked 2026-10, verify): about **$300,000** combined single limit at Hertz, Enterprise, National and Alamo, and **$500,000** at Avis and Budget (some locations or vehicle types differ). The supplement is usually excess over the rental company's own state-minimum liability and may duplicate or change how the driver's own policy applies. **Use the limit actually quoted on the agreement or the company's website.** Rental supplemental liability alone **rarely meets the $1M recommendation**. Mention that an umbrella or higher personal limits are the only way to get there for most renters. Abroad, most countries require the rental company to include liability in the price, and it is usually the main coverage. See `international.md` for limits by region.
 - **Umbrella**: sits on top of the auto liability. See `umbrella.md`.
 
+## The renter's exposure when someone else drives
+
+When the renter lets a friend drive, the renter may be sued too. Florida's "dangerous instrumentality" doctrine, for example, can make the person in control of a car liable for a permitted driver's negligence. The federal Graves Amendment shields **rental companies** from this kind of claim, not renters. Check that the renter's own liability policy covers them for "permissive use" claims, and count this exposure when deciding whether to buy supplemental liability. Treat the state-specific details as **verify**.
+
 ## The $300k test (per driver)
 
 Total liability that applies to the driver = their own auto policy limit (use the **per-accident bodily injury** limit for the test, and note the property damage limit) + any umbrella that applies + any SLI bought.

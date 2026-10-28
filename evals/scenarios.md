@@ -52,3 +52,7 @@ Expect: says the skill covers personal rentals only, and tells the user to conta
 > Booking a Tesla Model Y on Turo in Austin for a weekend, paying with my Amex Gold.
 
 Expect: flags that Amex excludes peer-to-peer car sharing; checks the personal policy for a car-sharing exclusion; says the user likely depends on Turo's protection plan; checks the Tesla's value against any limits; checks the liability limit against $300k.
+
+## Running
+
+`evals/run.sh` runs every prompt in `evals/prompts.txt` in parallel and writes replies to `evals/out/` (ignored by git). The prompts add "test mode" facts so each session can produce a full report without follow-up questions. Compare each reply to the expectations above.
