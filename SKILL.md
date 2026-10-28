@@ -128,10 +128,12 @@ Add any relevant "Also consider" items.
 Write the result using [references/report-template.md](references/report-template.md). Lead with the verdict. Cite the document and section for each conclusion. Keep it scannable.
 
 ## Always include in the report
+Every report (except a business-trip referral) must contain each item below, in its "Before you drive" section, **word for word** where the text is quoted. Don't paraphrase, merge, or drop them, even when an item seems obvious for this trip.
 - **Never let anyone who is not on the rental agreement drive the car.** If they do, there is no damage coverage from any source.
 - **Stay within the rental agreement's territory terms.** Driving into a country, or onto a ferry, that the agreement doesn't allow (or that you didn't declare) leaves you with **no damage coverage**.
 - Card coverage requires **declining the rental company's CDW/LDW** and **paying the entire rental with that card**, rented by an eligible cardholder.
 - **What credit cards call "insurance" is misleading. It is NEVER full coverage.** It only covers damage to the rental car itself, never liability (injuries to other people and damage to their property), which is the bigger risk.
+- **If the report recommends an umbrella anywhere**, that recommendation must say to buy it through a **local independent insurance broker** and to ask for a **true (full) personal umbrella, not a follow-form excess policy**.
 - The disclaimer: not financial, legal, or insurance advice; the author is not responsible for mistakes; verify everything with your insurer, card issuer, and rental company; report bugs at https://github.com/c-theuer/rental_car_coverage/issues.
 
 ## Rules for you
