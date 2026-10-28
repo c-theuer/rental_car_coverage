@@ -30,7 +30,9 @@ Numbered list. For each: driver, coverage, why it fails, source.
 Specific to each gap, e.g.:
 - Buy the rental company's **CDW/LDW** for the trip (note: this voids card coverage, so use it only when the card doesn't help)
 - Buy **SLI/LIS** (state the quoted limit)
-- Third-party rental damage coverage or a short-term non-owner liability policy
+- A standalone primary damage product, e.g. Amex Premium Car Rental Protection (flat fee per rental), or third-party rental damage coverage (usually reimbursement: you pay first, then claim)
+- A non-owner liability policy (liability only; doesn't cover damage to the rental)
+- If the personal policy would pay first: weigh a possible premium increase against the cost of the rental company's waiver or a primary product
 - Change who rents / who drives / which card pays (e.g. the spouse-as-AU fix)
 - Remove a driver who can't be covered
 
@@ -45,10 +47,14 @@ Specific to each gap, e.g.:
 ### Before you drive
 - **Never let anyone not on the rental agreement drive.** If they do, there is no damage coverage.
 - **Stay within the rental agreement's territory.** Declare every country and ferry crossing at the counter and make sure it's written on the agreement. Driving somewhere not allowed leaves you with **no damage coverage**.
+- Follow the agreement's prohibited-use rules: no off-road driving, towing, ride-share or delivery work, or driving under the influence. Breaking them can void all damage coverage.
 - Decline the CDW/LDW **only** if relying on card coverage, and pay the **entire** rental with that card.
 - **Credit cards never cover liability.**
 - Take photos/video of the car at pickup and return.
 - After any incident: police report, photos, notify the insurer and card benefit administrator promptly, and request the fleet utilization log for any loss-of-use claim.
+
+### Also consider
+Only the items that apply, from `other-risks.md`: injuries to you and your passengers (UM/UIM, medical payments), belongings in the car, charges no policy covers, under-25 drivers, and anything else relevant.
 
 ### Still to confirm
 Items marked ⚠️, with what document or phone call would resolve each.

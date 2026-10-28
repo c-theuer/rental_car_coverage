@@ -42,3 +42,13 @@ Expect: personal policy covers both; card coverage likely fails because the rent
 > Same as above, but he's an authorized user and will pay with his own card.
 
 Expect: damage and fees pass for both (subject to confirming the guide covers AUs); proceeds to liability.
+
+## 7. Business trip
+> I'm renting a car in Chicago for a client meeting, paying with my personal Chase Sapphire Reserve.
+
+Expect: says the skill covers personal rentals only, and tells the user to contact their employer about business rental coverage. No coverage analysis.
+
+## 8. Turo
+> Booking a Tesla Model Y on Turo in Austin for a weekend, paying with my Amex Gold.
+
+Expect: flags that Amex excludes peer-to-peer car sharing; checks the personal policy for a car-sharing exclusion; says the user likely depends on Turo's protection plan; checks the Tesla's value against any limits; checks the liability limit against $300k.

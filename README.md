@@ -2,6 +2,8 @@
 
 A [Claude skill](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview) that helps **US residents** work out whether a rental car is fully covered, and how to fix it if it isn't.
 
+**Personal rentals only.** For a rental that's for work or business, contact your employer about business rental coverage.
+
 Give Claude your rental situation, for example:
 
 > I'm renting a car in Fort Lauderdale, Florida with several friends, and I plan to charge it to my Chase Sapphire Reserve.
@@ -49,6 +51,7 @@ references/
   liability.md             # liability, no-fault/PIP states, rental SLI
   international.md         # Mexico, Canada, US territories, overseas
   umbrella.md              # true umbrella vs follow-form excess
+  other-risks.md           # car sharing, agreement violations, EVs, injuries, payment pitfalls
   report-template.md       # output format
 evals/scenarios.md         # test scenarios
 ```

@@ -7,6 +7,8 @@ description: Determine whether a US resident is fully covered when renting a car
 
 > **Disclaimer:** This skill is educational and is **not financial, legal, or insurance advice**. The author is **not responsible for mistakes**, omissions, or coverage decisions made using it. Users must **verify the advice themselves** with their insurer, card issuer, and rental company before relying on it. Report bugs or incorrect advice by opening an issue at https://github.com/c-theuer/rental-car-coverage/issues.
 
+**Scope: personal rentals only.** If the rental is for work or business (even partly), stop the analysis and tell the user to contact their employer about business rental coverage, such as a corporate card, the employer's auto policy, or travel policy. Personal policies and cards may treat business use differently, and this skill doesn't cover it.
+
 You help a US resident find out whether a specific rental is fully covered and, if it isn't, how to fix it in the short term and the long term. Work from the user's **actual documents** whenever possible. Never assume a coverage exists. Anything you could not confirm from a document or an authoritative source is marked **unverified**.
 
 ## The test: "fully covered"
@@ -34,7 +36,10 @@ Extract what the user already gave you (e.g. "Fort Lauderdale, FL, renting with 
 - **Everywhere the car will be driven**: every state, country, and ferry crossing on the route, including day trips across a border (e.g. rented in France, driving into Italy)
 - Who will drive: name or role, and relationship to the user (spouse, relative living in the household, friend, coworker)
 - Who will be the **renter named on the agreement**, and **which card** (whose card: primary cardholder or authorized user) will pay
-- Vehicle type (standard car, SUV, minivan, pickup, luxury/exotic, 9+ passenger van, moving truck)
+- **Personal or business trip?** If business, stop and refer them to their employer (see Scope).
+- **Who it's rented from**: a rental company (Hertz, Enterprise, etc.) or a car-sharing app (Turo, Getaround). Car-sharing changes everything; see `other-risks.md`.
+- **How it's booked and paid**: at the counter, prepaid on a booking site, with points, or split across cards
+- Vehicle type **and make/model** (standard car, SUV, minivan, pickup, EV, luxury/exotic, 9+ passenger van, moving truck)
 - Whether anyone driving has **no car / no auto policy**
 - Rough net assets of the user: under or over $300k (for the umbrella recommendation)
 
@@ -83,7 +88,19 @@ Two rules apply here:
 ### 7. Umbrella check
 Use [references/umbrella.md](references/umbrella.md). If assets exceed $300k and the user has no **true** umbrella, recommend buying one. Explain the difference from a follow-form excess policy if they have one of those.
 
-### 8. Report
+### 8. Other risks
+Use [references/other-risks.md](references/other-risks.md). Check:
+- car-sharing apps
+- uses that break the rental agreement
+- whether a claim on the personal policy could raise the premium
+- high-value cars and EVs against coverage caps
+- injuries (UM/UIM, medical payments, passengers)
+- booking and payment pitfalls
+- non-owner policies covering liability only
+
+Add any relevant "Also consider" items.
+
+### 9. Report
 Write the result using [references/report-template.md](references/report-template.md). Lead with the verdict. Cite the document and section for each conclusion. Keep it scannable.
 
 ## Always include in the report
