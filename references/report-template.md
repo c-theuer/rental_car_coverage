@@ -40,7 +40,7 @@ Specific to each gap, e.g.:
 - Raise auto liability limits (e.g. to 250/500/100 or higher)
 - Buy a **true umbrella** of $1M+ (especially if assets exceed $300k)
 - Add collision/comprehensive or a rental endorsement to the auto policy
-- Get a card with rental coverage that includes loss of use and additional drivers (or primary coverage)
+- Get a card with rental coverage that includes loss of use and additional drivers. Suggest a card with primary coverage **only** if the user has a personal auto policy and wants to keep rental claims off it. Without a personal policy, a secondary card already pays first.
 - Add a spouse as an authorized user
 - A **non-owner auto policy** for anyone who rents but doesn't own a car
 

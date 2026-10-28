@@ -8,7 +8,7 @@ Damage = collision + comprehensive (theft, vandalism, weather, glass) to the ren
 2. **Credit card rental benefit** (usually secondary). Pays what the personal policy doesn't: the deductible, and often loss of use, admin fees, and towing.
 3. **Rental company CDW/LDW** (a waiver, not insurance). If bought, it replaces both of the above. Buying it usually **voids** the card benefit.
 
-Some cards state **primary** coverage (they pay first, and the personal policy isn't involved). Always report what the guide says. A primary card is still bounded by its own maximum and exclusions.
+If the driver has **no** personal auto insurance, a secondary card pays first anyway (see "No personal auto policy" below). Some cards state **primary** coverage (they pay first even when the driver has a personal policy, which isn't involved). Always report what the guide says. A primary card is still bounded by its own maximum and exclusions.
 
 ## Personal auto policy: what to check
 
@@ -61,6 +61,6 @@ For each driver on the agreement:
 ## Common gaps
 
 - **Friend driving, renter's policy.** The renter's policy usually does **not** cover an unrelated friend. The friend may be covered by **their own** policy's non-owned auto coverage if they're on the agreement (verify in their policy), and by the card as an authorized driver (verify in the guide). If neither applies, the friend fails the damage test.
-- **No personal auto policy.** Many secondary cards become primary when the renter has no other insurance; verify in the guide. If no card benefit either, the user needs the counter's CDW/LDW or third-party rental damage coverage.
+- **No personal auto policy.** A secondary card automatically acts as **primary** when the driver has no personal auto insurance or other insurance covering the loss. Standard Visa Signature guides, for example, say "If You do not have personal automobile insurance or any other insurance, this coverage acts as primary," and then pay the damage plus loss-of-use and admin charges. Confirm the wording in the user's guide, but **don't** recommend switching to a primary card on this basis. If no card benefit either, the user needs the counter's CDW/LDW or third-party rental damage coverage.
 - **Loss of use not covered by either.** Common with personal policies alone. A card that covers loss of use closes it.
 - **Excluded vehicle or country, or rental too long.** The card provides nothing. Fall back to the personal policy (if the territory applies) or buy the counter's waiver.

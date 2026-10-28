@@ -28,7 +28,7 @@ Remind the user to read the agreement's "prohibited use" section.
 
 A damage or liability claim on the personal auto policy is a claim on the user's record, even if the card reimburses the deductible. It can raise premiums or, after several claims, lead to non-renewal. This affects the recommendation:
 
-- A card with **primary** coverage pays first and keeps the claim off the personal policy.
+- A card with **primary** coverage pays first and keeps the claim off the personal policy. (This only matters for someone who has a personal policy. Without one, a secondary card already pays first.)
 - With a secondary card, buying the rental company's CDW/LDW, or a standalone primary product (below), may be worth it for someone who wants to avoid a claim on their policy.
 
 State this trade-off in the report whenever the personal policy would be the first payer.
