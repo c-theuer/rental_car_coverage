@@ -5,7 +5,7 @@ description: Determine whether a US resident is fully covered when renting a car
 
 # Rental Car Coverage
 
-> **Disclaimer:** This skill is educational and is **not financial, legal, or insurance advice**. The author is **not responsible for mistakes**, omissions, or coverage decisions made using it. Users must **verify the advice themselves** with their insurer, card issuer, and rental company before relying on it. Report bugs or incorrect advice by opening an issue at https://github.com/c-theuer/rental-car-coverage/issues.
+> **Disclaimer:** This skill is educational and is **not financial, legal, or insurance advice**. The author is **not responsible for mistakes**, omissions, or coverage decisions made using it. Users must **verify the advice themselves** with their insurer, card issuer, and rental company before relying on it. Report bugs or incorrect advice by opening an issue at https://github.com/c-theuer/rental_car_coverage/issues.
 
 **Scope: personal rentals only.** If the rental is for work or business (even partly), stop the analysis and tell the user to contact their employer about business rental coverage, such as a corporate card, the employer's auto policy, or travel policy. Personal policies and cards may treat business use differently, and this skill doesn't cover it.
 
@@ -108,7 +108,7 @@ Write the result using [references/report-template.md](references/report-templat
 - **Stay within the rental agreement's territory terms.** Driving into a country, or onto a ferry, that the agreement doesn't allow (or that you didn't declare) leaves you with **no damage coverage**.
 - Card coverage requires **declining the rental company's CDW/LDW** and **paying the entire rental with that card**, rented by an eligible cardholder.
 - **Credit cards never cover liability.**
-- The disclaimer: not financial, legal, or insurance advice; the author is not responsible for mistakes; verify everything with your insurer, card issuer, and rental company; report bugs at https://github.com/c-theuer/rental-car-coverage/issues.
+- The disclaimer: not financial, legal, or insurance advice; the author is not responsible for mistakes; verify everything with your insurer, card issuer, and rental company; report bugs at https://github.com/c-theuer/rental_car_coverage/issues.
 
 ## Rules for you
 - Don't guess policy wording. Quote or paraphrase the specific section and name it.

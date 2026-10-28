@@ -61,4 +61,4 @@ Items marked ⚠️, with what document or phone call would resolve each.
 
 ---
 
-*This is educational information, not financial, legal, or insurance advice. The author is not responsible for mistakes. Verify everything with your insurer, card issuer, and rental company before relying on it. Found a bug or wrong advice? Open an issue at https://github.com/c-theuer/rental-car-coverage/issues.*
+*This is educational information, not financial, legal, or insurance advice. The author is not responsible for mistakes. Verify everything with your insurer, card issuer, and rental company before relying on it. Found a bug or wrong advice? Open an issue at https://github.com/c-theuer/rental_car_coverage/issues.*

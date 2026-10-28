@@ -31,13 +31,13 @@ And always:
 ## Install
 
 ### claude.ai
-1. Download `rental-car-coverage.zip` from the [latest release](https://github.com/c-theuer/rental-car-coverage/releases/latest).
+1. Download `rental-car-coverage.zip` from the [latest release](https://github.com/c-theuer/rental_car_coverage/releases/latest).
 2. In claude.ai, go to **Settings → Capabilities → Skills**, choose **Upload skill**, and select the zip.
 3. Start a chat and describe your rental.
 
 ### Claude Code
 ```bash
-git clone https://github.com/c-theuer/rental-car-coverage.git ~/.claude/skills/rental-car-coverage
+git clone https://github.com/c-theuer/rental_car_coverage.git ~/.claude/skills/rental-car-coverage
 ```
 Or clone it anywhere and symlink the folder into `~/.claude/skills/`.
 
@@ -62,7 +62,7 @@ This skill is for **educational purposes only** and is **not financial, legal, o
 
 ## Reporting bugs
 
-Found a bug, wrong advice, or outdated information? Please [open an issue](https://github.com/c-theuer/rental-car-coverage/issues). Include the scenario you described (leave out personal details) and what the skill got wrong.
+Found a bug, wrong advice, or outdated information? Please [open an issue](https://github.com/c-theuer/rental_car_coverage/issues). Include the scenario you described (leave out personal details) and what the skill got wrong.
 
 ## License
 
